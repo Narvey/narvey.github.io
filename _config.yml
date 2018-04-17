@@ -3,6 +3,7 @@ permalink: /:slug
 
 # Name of your blog (this will show up at the top of your page and in the RSS feed)
 name: NarveyPages
+title: NarveyPages
 
 # Short description (goes below the title; it will also be used in the RSS feed)
 description: temp name for Nathan’s Code Samples and Projects
