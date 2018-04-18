@@ -29,7 +29,7 @@ markdown: rdiscount
 # paginate: 3
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [LICENSE, README.markdown, package.json, node_modules]
+exclude: [LICENSE, README.markdown, package.json, node_modules, style.css]
 
 #### YAML Front Matter defaults #####
 defaults:
