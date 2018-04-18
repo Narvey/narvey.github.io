@@ -6,4 +6,4 @@ title: Home
 
 **coming soon!** for now, just see [my GitHub Profile](https://github.com/Narvey).
 
-or [CodeSandbox profile](https://codesandbox.io/u/Narvey)
+or [CodeSandbox profile](https://codesandbox.io/u/Narvey/sandboxes)
