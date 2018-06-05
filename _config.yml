@@ -25,6 +25,10 @@ category_dir: /cat/
 # If you don't have it install it via gem install rdiscount
 markdown: rdiscount
 
+rdiscount:
+  extensions:
+    - autolink      # greedily urlify links
+
 # How many articles do you wish to appear on the front page:
 # paginate: 3
 
