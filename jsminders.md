@@ -12,7 +12,7 @@ Standard foreach loop in JS is:
 ```
 for(var obj of [{},3,[9,0]])
 {
-    if(typeof(obj)=="number") console.log(obj)
+    if(typeof(obj)==="number") console.log(obj)
 }
 ```
 
@@ -21,3 +21,4 @@ for(var obj of [{},3,[9,0]])
 
 ## Always use === unless you have to use == ##
 One example of when you might need == is checking for null/undefined at the same time: `myVar == null`
+See https://dorey.github.io/JavaScript-Equality-Table/
