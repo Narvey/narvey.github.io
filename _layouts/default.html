@@ -19,7 +19,7 @@
         <section id="downloads">
           <!-- auto-links to pages -->
           {% for pg in site.pages  %}
-            <a href="{{ pg.url }}" class="btn">{{ pg.title }}</a>
+            <a href="{{ pg.url }}" class="btn">{% if pg.title %}{{ pg.title }}{% else %} {{ pg.slug }}{% endif %}</a>
           {% endfor %}
 
           {% if site.show_downloads %}
